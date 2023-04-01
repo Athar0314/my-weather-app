@@ -26,8 +26,6 @@ function App() {
       })
       .catch((err) => console.log(err));
   };
-  console.log("weather", currentWeather);
-  console.log("forecast", forecast);
 
   return (
     <div className="Container">
